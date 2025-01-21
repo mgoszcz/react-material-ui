@@ -1,12 +1,14 @@
 import "./App.css";
 import TourCard from "./components/TourCard";
-import { Container } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 
 function App() {
   return (
     <div className="App">
       <Container>
-        <TourCard />
+        <Grid container spacing={5}>
+          <TourCard />
+        </Grid>
       </Container>
     </div>
   );
