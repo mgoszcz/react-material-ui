@@ -1,10 +1,13 @@
 import "./App.css";
 import TourCard from "./components/TourCard";
+import { Container } from "@mui/material";
 
 function App() {
   return (
     <div className="App">
-      <TourCard />
+      <Container>
+        <TourCard />
+      </Container>
     </div>
   );
 }
